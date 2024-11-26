@@ -7,8 +7,9 @@ use Illuminate\Http\Request;
 class ClientController extends Controller
 {
     public function connexion() {
-		return "Page de connexion" ;
-	}
+		return  view('vue-connexion') ;
+	}           
+
 	
 	public function deconnexion() {
 		return "Page de deconnexion" ;
