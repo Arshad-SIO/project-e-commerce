@@ -1,3 +1,4 @@
+
 <?php
 
 use Illuminate\Database\Migrations\Migration;
@@ -15,10 +16,10 @@ class CreateClientsTable extends Migration
     {
         Schema::create('clients', function (Blueprint $table) {
             $table->id();
-            $table->string('nom');
-            $table->string('mdp');
-            $table->timestamps();
-        });
+            $table->string('nom') ;
+            $table->string('mdp') ; 
+            $table->timestamps() ;
+        } ) ;
     }
 
     /**
