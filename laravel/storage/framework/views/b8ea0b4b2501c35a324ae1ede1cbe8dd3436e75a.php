@@ -16,3 +16,4 @@
 		<input type="submit" value="se connecter">
     </form>
 </html>
+<?php /**PATH /var/www/html/project-e-commerce/laravel/resources/views/vue-connexion.blade.php ENDPATH**/ ?>
