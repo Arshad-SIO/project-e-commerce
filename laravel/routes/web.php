@@ -21,15 +21,19 @@ Route::get('/', [ AccueilController::class, 'accueil']);
 
 Route::get('/clients/connexion', [ ClientController::class, 'connexion' ] ) ;
 
+Route::post('/clients/connecter', [ ClientController::class, 'connecter'] ) ; 
+
 Route::get('/clients/deconnexion', [ ClientController::class, 'deconnexion' ] ) ;
 
 Route::get('/clients/panier', [ ClientController::class, 'panier' ] ) ;
+
 
 Route::get('/produits', [ ProduitController::class, 'produit' ] ) ;
 
 Route::get('/produits/description', [ ProduitController::class, 'description' ] ) ;
 
 Route::get('/produits/panier', [ ProduitController::class, 'panier' ] ) ;
+
 
 Route::get('/panier/commande', [ PanierController::class, 'commande' ] ) ;
 

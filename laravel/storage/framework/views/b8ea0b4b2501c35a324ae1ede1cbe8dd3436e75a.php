@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
     <form method="POST" action="/clients/connecter" />
+    
+		<?php echo e(csrf_field()); ?>
+
 		
 		<label for="nom">Nom de connexion : </label>
 		<input type="text" name="login" id="nom">
