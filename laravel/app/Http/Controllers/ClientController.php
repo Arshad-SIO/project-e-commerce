@@ -23,11 +23,11 @@ class ClientController extends Controller
 			
 		if($client) {
 			session() -> put('client' , $client) ; 
-			return "COnnexion Reussis" ; 
+			return view( 'vue-reussite' ) ; 
 			
 		}
 		else {
-			return 'ERREUR' ; 
+			return view( 'vue-connexion' ) -> with( 'connexion_nok' , True ); 
 		}
 		
 	}           

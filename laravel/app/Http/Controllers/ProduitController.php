@@ -3,11 +3,15 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Produit; 
 
 class ProduitController extends Controller
 {
     public function produit() {
-		return "Page de liste des produits" ;
+		
+		$produits = Produit::get();
+		
+		return view( 'vue-produits' )->with("produits",$produits) ;
 	}
 	
 	public function description() {
