@@ -3,9 +3,8 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use App\Models\Client;
 
-class ClientSeeder extends Seeder
+class ProduitSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -14,11 +13,6 @@ class ClientSeeder extends Seeder
      */
     public function run()
     {
-        Client::create([
-			'nom' => 'DURANT' , 
-			'mdp' => 'azerty' , 
-			
-		]); 
-        
+        //
     }
 }
