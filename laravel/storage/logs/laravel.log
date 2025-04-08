@@ -1503,6 +1503,7 @@ Did you mean one of these?
 #32 /var/www/html/project-e-commerce/laravel/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
 #33 {main}
 "} 
+<<<<<<< HEAD
 [2025-03-27 12:09:49] local.ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'nom' in 'field list' (SQL: select `nom` from `clients` where `nom` = hfgbq and `mdp` = aqefgeqg limit 1) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'nom' in 'field list' (SQL: select `nom` from `clients` where `nom` = hfgbq and `mdp` = aqefgeqg limit 1) at /var/www/html/project-e-commerce/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:712)
 [stacktrace]
 #0 /var/www/html/project-e-commerce/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(672): Illuminate\\Database\\Connection->runQueryCallback()
@@ -2032,6 +2033,30 @@ Did you mean one of these?
 #17 /var/www/html/project-e-commerce/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(606): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
 #18 /var/www/html/project-e-commerce/laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(77): Illuminate\\Database\\Migrations\\Migrator->usingConnection()
 #19 /var/www/html/project-e-commerce/laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+=======
+[2025-03-27 12:24:48] local.ERROR: syntax error, unexpected token "class", expecting "," or ";" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"class\", expecting \",\" or \";\" at /var/www/html/project-e-commerce/laravel/database/seeders/ClientSeeder.php:8)
+[stacktrace]
+#0 /var/www/html/project-e-commerce/laravel/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}()
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass()
+#2 /var/www/html/project-e-commerce/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct()
+#3 /var/www/html/project-e-commerce/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\\Container\\Container->build()
+#4 /var/www/html/project-e-commerce/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(853): Illuminate\\Container\\Container->resolve()
+#5 /var/www/html/project-e-commerce/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\\Foundation\\Application->resolve()
+#6 /var/www/html/project-e-commerce/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(838): Illuminate\\Container\\Container->make()
+#7 /var/www/html/project-e-commerce/laravel/vendor/laravel/framework/src/Illuminate/Database/Seeder.php(94): Illuminate\\Foundation\\Application->make()
+#8 /var/www/html/project-e-commerce/laravel/vendor/laravel/framework/src/Illuminate/Database/Seeder.php(39): Illuminate\\Database\\Seeder->resolve()
+#9 /var/www/html/project-e-commerce/laravel/database/seeders/DatabaseSeeder.php(17): Illuminate\\Database\\Seeder->call()
+#10 /var/www/html/project-e-commerce/laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Database\\Seeders\\DatabaseSeeder->run()
+#11 /var/www/html/project-e-commerce/laravel/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#12 /var/www/html/project-e-commerce/laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#13 /var/www/html/project-e-commerce/laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#14 /var/www/html/project-e-commerce/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#15 /var/www/html/project-e-commerce/laravel/vendor/laravel/framework/src/Illuminate/Database/Seeder.php(149): Illuminate\\Container\\Container->call()
+#16 /var/www/html/project-e-commerce/laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php(66): Illuminate\\Database\\Seeder->__invoke()
+#17 /var/www/html/project-e-commerce/laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/GuardsAttributes.php(157): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#18 /var/www/html/project-e-commerce/laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php(65): Illuminate\\Database\\Eloquent\\Model::unguarded()
+#19 /var/www/html/project-e-commerce/laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+>>>>>>> 7f2f470ec05d0622cb6c5af41596a97a8960dc90
 #20 /var/www/html/project-e-commerce/laravel/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
 #21 /var/www/html/project-e-commerce/laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
 #22 /var/www/html/project-e-commerce/laravel/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
@@ -2047,7 +2072,11 @@ Did you mean one of these?
 #32 /var/www/html/project-e-commerce/laravel/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
 #33 {main}
 "} 
+<<<<<<< HEAD
 [2025-03-27 12:25:20] local.ERROR: syntax error, unexpected token "class", expecting "," or ";" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"class\", expecting \",\" or \";\" at /var/www/html/project-e-commerce/laravel/database/seeders/ClientSeeder.php:8)
+=======
+[2025-03-27 12:26:24] local.ERROR: syntax error, unexpected token "class", expecting "," or ";" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"class\", expecting \",\" or \";\" at /var/www/html/project-e-commerce/laravel/database/seeders/ClientSeeder.php:8)
+>>>>>>> 7f2f470ec05d0622cb6c5af41596a97a8960dc90
 [stacktrace]
 #0 /var/www/html/project-e-commerce/laravel/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}()
 #1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass()
@@ -2084,6 +2113,7 @@ Did you mean one of these?
 #32 /var/www/html/project-e-commerce/laravel/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
 #33 {main}
 "} 
+<<<<<<< HEAD
 [2025-03-27 14:25:53] local.ERROR: syntax error, unexpected token "}", expecting ";" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"}\", expecting \";\" at /var/www/html/project-e-commerce/laravel/app/Http/Controllers/PanierController.php:14)
 [stacktrace]
 #0 /var/www/html/project-e-commerce/laravel/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}()
@@ -5364,3 +5394,5 @@ Did you mean one of these?
 #48 /var/www/html/project-e-commerce/laravel/server.php(21): require_once('...')
 #49 {main}
 "} 
+=======
+>>>>>>> 7f2f470ec05d0622cb6c5af41596a97a8960dc90

@@ -1,2 +1,3 @@
 *
 !.gitignore
+laravel/storage/logs/*.log
